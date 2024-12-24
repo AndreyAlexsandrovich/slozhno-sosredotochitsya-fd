@@ -1,0 +1,25 @@
+.why {
+    padding-block-start: clamp(2.5rem, 1.3679rem + 4.9628vw, 3.75rem);
+    display: grid;
+    align-items: start;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+
+.why__list {
+   min-inline-size: 100%;
+}
+
+.why__title {
+    font-family: var(--font-family);
+    font-weight: var(--font-bold);
+    font-size: var(--size-text);
+    text-transform: var(--text-capitalize);
+    margin-block-end: 15px;
+    line-height: 130%;
+    inline-size: 100%;
+}
+
+.why__description--accent {
+    text-shadow: 4px 4px 0  var(--color-pink);
+}

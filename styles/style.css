@@ -1,5 +1,54 @@
-/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
+main { 
+  padding-inline-start: clamp(0.625rem, 0.0589rem + 2.4814vw, 1.25rem);;
+  padding-inline-end: clamp(0.625rem, 0.0589rem + 2.4814vw, 1.25rem);
+}
 
 .page {
-  /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 0 auto;
+  background-image: url(../images/cover-image-dark.png);
+  background-color: var(--color-dark-blue);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.heading-h2 { 
+  font-weight: var(--font-bold);
+  font-size: var(--size-text);
+  line-height: 130%;
+  color: var(--color-pink);
+  margin-block-end: 20px;
+}
+
+.heading-h3 { 
+  margin-block-end: 10px;
+  font-size: var(--size-text);
+}
+
+.heading-h4 { 
+  margin-block-end: 10px;
+  font-size: var(--size-text);
+}
+
+.description-paragraph { 
+  font-family: var(--font-family);
+  font-weight: var(--font-regular);
+  font-size: var(--size-text);
+  line-height: 130%;
+  --color-white: #f1b2ce;
+  color: var(--color-white);
+  margin-block-end: 20px;
+}
+
+.title--dark { 
+  background-color: var(--color-pink);
+    color: var(--color-dark-blue);
+}
+
+.heading-h3--margin-block-end-x2 { 
+  margin-block-end: 20px;
 }

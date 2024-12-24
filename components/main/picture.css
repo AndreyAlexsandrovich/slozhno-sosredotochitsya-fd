@@ -1,0 +1,19 @@
+.picture {
+    margin-block-start: 50px;
+}
+
+.picture__image { 
+    max-width: 100%;
+    background-position: center center;
+    background-size: contain;
+}
+
+.picture__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.picture__heading { 
+    margin: 0 0 10px 0;
+}

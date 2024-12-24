@@ -1,0 +1,13 @@
+
+    .what {
+        margin-block-start: 33px;
+    }
+
+.what__heading { 
+    font-family: var(--font-family);
+    font-weight: var(--font-bold);
+    font-size: var(--size-text);
+    line-height: 130%;
+    color: var(--color-pink);
+}
+
