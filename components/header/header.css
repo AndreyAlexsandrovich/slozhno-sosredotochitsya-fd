@@ -16,7 +16,7 @@
     text-transform: var(--text-uppercase);
     font-family: var(--font-family);
     font-weight: var(--font-regular);
-    color: var(--color-pink);
+    color: var(--color);
     line-height: 139%;
     margin-block-end: clamp(2.5rem, -3.8216rem + 26.972vw, 9.125rem);
 }
@@ -27,15 +27,15 @@
     inline-size: 9px;
     block-size: 9px;
     border-radius: 50%;
-    background-color: var(--color-pink);
-    box-shadow: 0 0 4px 2px var(--color-pink);
+    background-color: var(--color);
+    box-shadow: 0 0 4px 2px var(--color);
 }
 
 .decorated-zone::before {
     content: '';
     position: absolute;
-    border-top: 1px solid var(--color-pink);
-    border-right: 1px solid var(--color-pink);
+    border-top: 1px solid var(--color);
+    border-right: 1px solid var(--color);
     inline-size: 25px;
     block-size: 25px;
     inset-inline-end: 0;
@@ -47,8 +47,8 @@
 .decorated-zone::after {
     content: '';
     position: absolute;
-    border-bottom: 1px solid var(--color-pink);
-    border-left: 1px solid var(--color-pink);
+    border-bottom: 1px solid var(--color);
+    border-left: 1px solid var(--color);
     inline-size: 25px;
     block-size: 25px;
     inset-block-end: 0;
@@ -65,7 +65,7 @@
 }
 
 .header__theme-menu-item {
-    color: var(--color-pink);
+    color: var(--color);
     font-size: var(--size-text);
     font-weight: var(--font-regular);
     font-family: var(--font-family);
@@ -93,11 +93,11 @@
 }
 
 .header__theme-menu-button:focus-visible {
-    border-bottom: 1px solid var(--color-pink);
+    border-bottom: 1px solid var(--color);
 }
 
 .header__theme-menu-button_active {
-    outline: 1px var(--color-pink) solid;
+    outline: 1px var(--color) solid;
 }
 
 .heading-h1 {
@@ -110,14 +110,14 @@
 }
 
 .heading-h1--accent {
-    color: var(--color-purple);
-    text-shadow: 4px 4px 0 var(--color-pink);
+    color: var(--color-heading-h1);
+    text-shadow: 4px 4px 0 var(--color-heading-h1-accent);
 }
 
 .heading__description {
     font-family: var(--font-family);
     font-size: var(--size-text);
-    color: var(--color-dark-blue);
+    color: var(--color-description);
     font-weight: 700;
     line-height: 130%;
     margin-top: 55px;
@@ -126,6 +126,6 @@
 }
 
 .heading__description--accent { 
-    background-color: var(--color-pink);
+    background-color: var(--color--description-accent);
     inline-size: clamp(22.188rem, 17.276rem + 20.955vi, 30.688rem);
 }

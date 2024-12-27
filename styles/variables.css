@@ -1,10 +1,5 @@
 :root {  
-  --color-dark-blue: #000028;
-  --color-pink: #FF0070;
-  --color-pink-transparency: rgb(255, 0, 112, 0.4);
-  --color-purple: #DB00FF;
-  --color-hover: #353430;
-  --color-outline-hover: rgb(53, 52, 48, 0.4);
+  --color-heading-h1-accent:  #ff0070;
   --size-title: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --size-text: 18px;
   --font-bold: 700;
