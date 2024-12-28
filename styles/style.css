@@ -3,6 +3,10 @@ main {
   padding-inline-end: clamp(0.625rem, 0.0589rem + 2.4814vw, 1.25rem);
 }
 
+a { 
+  text-decoration: none;
+}
+
 .page {
   display: flex;
   justify-content: space-between;
@@ -50,4 +54,21 @@ main {
 
 .heading-h3--margin-block-end-x2 { 
   margin-block-end: 20px;
+}
+
+.link--accent { 
+  text-shadow: 2px 2px 1px var(--color-link-accent);
+}
+
+.link--accent:focus { 
+  outline: none;
+}
+
+.link--accent:focus-visible { 
+  outline: 1px  var(--color-focus) solid;
+}
+
+.link--accent:hover { 
+  text-decoration-skip-ink: none;
+  text-decoration: underline;
 }

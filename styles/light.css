@@ -10,9 +10,11 @@
   --color-hover: #353430;
   --color-outline-hover: #353430;
   --color-bg-theme:  #fff1f7;
+  --color-link-accent: #353430;
+  --color-focus:  #353430;
   --background: url(../images/cover-image-light.png);
 }
 
 .page.theme_light .decorative-rec { 
-  display: none;
+  opacity: 0;
 }

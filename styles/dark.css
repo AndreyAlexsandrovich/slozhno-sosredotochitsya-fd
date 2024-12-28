@@ -8,7 +8,9 @@
   --color-outline-hover: rgb(53, 52, 48, 0.4);
   --color-title: #000028;
   --color-bg-title: #FF0070;
+  --color-link-accent: #ff0070;
   --color-text:  #f1b2ce;
+  --color-focus:  #f1b2ce;
   --color-bg-theme: #000028;
   --background: url(../images/cover-image-dark.png);
 }
