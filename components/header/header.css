@@ -18,7 +18,6 @@
     font-weight: var(--font-regular);
     color: var(--color);
     line-height: 139%;
-    margin-block-end: clamp(2.5rem, -3.8216rem + 26.972vw, 9.125rem);
 }
 
 .decorative-rec::after {
@@ -40,6 +39,7 @@
     block-size: 25px;
     inset-inline-end: 0;
     inset-block-start: 0;
+    display: block;
 }
 
 
@@ -52,6 +52,7 @@
     inline-size: 25px;
     block-size: 25px;
     inset-block-end: 0;
+    display: block;
 }
 
 .header__theme-menu {
@@ -61,7 +62,8 @@
 .header__theme-menu-list {
     display: flex;
     flex-direction: column;
-    gap: 13px;
+    gap: 17px;
+    margin-block-start: clamp(2.5rem, -1.3641rem + 16.4869vw, 9.1875rem);
 }
 
 .header__theme-menu-item {

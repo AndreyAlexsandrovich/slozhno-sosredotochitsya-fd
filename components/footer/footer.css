@@ -1,5 +1,5 @@
 .footer {
-    margin: 275px 10px 0 10px;
+    min-height: 60vh;
 }
 .footer__title {
     font-size: var(--size-title);
