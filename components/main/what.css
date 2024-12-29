@@ -4,9 +4,9 @@
     }
 
 .what__heading { 
-    font-family: var(--font-family);
-    font-weight: var(--font-bold);
-    font-size: var(--size-text);
+    font-family: var(--font-family, 'IBM Plex Mono', sans-serif);
+    font-weight: var(--font-bold, 700);
+    font-size: var(--size-text, 18px);
     line-height: 130%;
 }
 

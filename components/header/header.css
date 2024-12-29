@@ -1,4 +1,5 @@
 .header {
+    min-height: 668px;
     margin: 10px;
 }
 
@@ -13,10 +14,10 @@
     justify-content: end;
     margin-right: 9px;
     align-items: center;
-    text-transform: var(--text-uppercase);
-    font-family: var(--font-family);
-    font-weight: var(--font-regular);
-    color: var(--color);
+    text-transform: var(--text-uppercase, uppercase);
+    font-family: var(--font-family, 'IBM Plex Mono', sans-serif);
+    font-weight: var(--font-regular, 400);
+    color: var(--color,  #353430, #FF0070);
     line-height: 139%;
 }
 
@@ -26,15 +27,15 @@
     inline-size: 9px;
     block-size: 9px;
     border-radius: 50%;
-    background-color: var(--color);
-    box-shadow: 0 0 4px 2px var(--color);
+    background-color: var(--color,  #353430, #FF0070);
+    box-shadow: 0 0 4px 2px var(--color,  #353430, #FF0070);
 }
 
 .decorated-zone::before {
     content: '';
     position: absolute;
-    border-top: 1px solid var(--color);
-    border-right: 1px solid var(--color);
+    border-top: 1px solid var(--color,  #353430, #FF0070);
+    border-right: 1px solid var(--color,  #353430, #FF0070);
     inline-size: 25px;
     block-size: 25px;
     inset-inline-end: 0;
@@ -47,11 +48,12 @@
 .decorated-zone::after {
     content: '';
     position: absolute;
-    border-bottom: 1px solid var(--color);
-    border-left: 1px solid var(--color);
+    border-bottom: 1px solid var(--color,  #353430, #FF0070);
+    border-left: 1px solid var(--color,  #353430, #FF0070);
     inline-size: 25px;
     block-size: 25px;
-    inset-block-end: 0;
+   inset-block-end: 0;
+   inset-inline-start: 0;
     display: block;
 }
 
@@ -63,14 +65,14 @@
     display: flex;
     flex-direction: column;
     gap: 17px;
-    margin-block-start: clamp(2.5rem, -1.3641rem + 16.4869vw, 9.1875rem);
+    margin-block-start:clamp(2.5rem, -3.8812rem + 27.2265vw, 9.1875rem);
 }
 
 .header__theme-menu-item {
-    color: var(--color);
-    font-size: var(--size-text);
+    color: var(--color,  #353430, #FF0070);
+    font-size: var(--size-text, 18px);
     font-weight: var(--font-regular);
-    font-family: var(--font-family);
+    font-family: var(--font-family, 'IBM Plex Mono', sans-serif);
     line-height: 100%;
     display: flex;
     align-self: end;
@@ -80,12 +82,12 @@
 .header__theme-menu-button {
     background-color: transparent;
     border: none;
-    text-transform: var(--text-lowercase);
+    text-transform: var(--text-lowercase, lowercase);
     padding: 1.5px 13px;
 }
 
 .header__theme-menu-button:hover {
-    outline: 1px var(--color-pink-transparency) solid;
+    outline: 1px var(--color-pink-transparency,  rgb(255, 0, 112, 0.4)) solid;
     cursor: pointer;
 }
 
@@ -95,31 +97,31 @@
 }
 
 .header__theme-menu-button:focus-visible {
-    border-bottom: 1px solid var(--color);
+    border-bottom: 1px solid var(--color,  #353430, #FF0070);
 }
 
 .header__theme-menu-button_active {
-    outline: 1px var(--color) solid;
+    outline: 1px var(--color,  #353430, #FF0070) solid;
 }
 
 .heading-h1 {
-    font-size: var(--size-title);
-    text-transform: var(--text-lowercase);
-    font-family: var(--font-family);
-    font-weight: var(--font-bold);
+    font-size: var(--size-title, clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem));
+    text-transform: var(--text-lowercase, lowercase);
+    font-family: var(--font-family, 'IBM Plex Mono', sans-serif);
+    font-weight: var(--font-bold, 700);
     line-height: 82.5%;
     margin-top:  65px;
 }
 
 .heading-h1--accent {
-    color: var(--color-heading-h1);
-    text-shadow: 4px 4px 0 var(--color-heading-h1-accent);
+    color: var(--color-heading-h1, #FFC2E6, #DB00FF);
+    text-shadow: 4px 4px 0 var(--color-heading-h1-accent, #ff0070);
 }
 
 .heading__description {
-    font-family: var(--font-family);
-    font-size: var(--size-text);
-    color: var(--color-description);
+    font-family: var(--font-family, 'IBM Plex Mono', sans-serif);
+    font-size: var(--size-text, 18px);
+    color: var(--color-description, #353430, #FF0070);
     font-weight: 700;
     line-height: 130%;
     margin-top: 55px;
@@ -128,6 +130,6 @@
 }
 
 .heading__description--accent { 
-    background-color: var(--color--description-accent);
+    background-color: var(--color--description-accent,  #FF8DCB, #FF0070);
     inline-size: clamp(22.188rem, 17.276rem + 20.955vi, 30.688rem);
 }

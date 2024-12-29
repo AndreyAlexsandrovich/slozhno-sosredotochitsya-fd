@@ -1,9 +1,10 @@
 .why {
-    padding-block-start: clamp(5.9375rem, 0.5927rem + 22.8043vw, 15.1875rem);
+    padding-block-start: 95px;
     display: grid;
     align-items: start;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
+    
 }
 
 .why__list {
@@ -11,15 +12,11 @@
 }
 
 .why__title {
-    font-family: var(--font-family);
-    font-weight: var(--font-bold);
-    font-size: var(--size-text);
-    text-transform: var(--text-capitalize);
+    font-family: var(--font-family, 'IBM Plex Mono', sans-serif);
+    font-weight: var(--font-bold, 700);
+    font-size: var(--size-text, 18px);
+    text-transform: var(--text-capitalize, capitalize);
     margin-block-end: 15px;
     line-height: 130%;
     inline-size: 100%;
-}
-
-.why__description--accent {
-    text-shadow: 4px 4px 0  var(--color-pink);
 }

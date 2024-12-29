@@ -1,10 +1,17 @@
 .footer {
-    min-height: 60vh;
+    margin-inline: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    min-height: 668px;
+    padding: 0;
+    margin-block-start: 20px;
 }
 .footer__title {
-    font-size: var(--size-title);
-    color: var(--color-heading-h1);
-    font-weight: var(--font-bold);
-    text-transform: var(--text-lowercase);
-    text-shadow: 4px 4px 0 var(--color-heading-h1-accent);
+    justify-self: center;
+    align-self: center;
+    font-size: var(--size-title, clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem));
+    color: var(--color-heading-h1, #FFC2E6, #DB00FF);
+    font-weight: var(--font-bold, 700);
+    text-transform: var(--text-lowercase, lowercase);
+    text-shadow: 4px 4px 0 var(--color-heading-h1-accent, #ff0070);
 }

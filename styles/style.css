@@ -1,3 +1,5 @@
+
+
 main { 
   padding-inline-start: clamp(0.625rem, 0.0589rem + 2.4814vw, 1.25rem);;
   padding-inline-end: clamp(0.625rem, 0.0589rem + 2.4814vw, 1.25rem);
@@ -12,8 +14,8 @@ a {
   justify-content: space-between;
   flex-direction: column;
   margin: 0 auto;
-  background-image: var(--background);
-  background-color: var(--color-bg-theme);
+  background-image: var(--background, url(../images/cover-image-light.png), url(../images/cover-image-dark.png));
+  background-color: var(--color-bg-theme, #fff1f7, #000028);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -21,35 +23,35 @@ a {
 }
 
 .heading-h2 { 
-  font-weight: var(--font-bold);
-  font-size: var(--size-text);
+  font-weight: var(--font-bold, 700);
+  font-size: var(--size-text, 18px);
   line-height: 130%;
-  color: var(--color);
+  color: var(--color, #353430, #FF0070);
   margin-block-end: 20px;
 }
 
 .heading-h3 { 
   margin-block-end: 10px;
-  font-size: var(--size-text);
+  font-size: var(--size-text, 18px);
 }
 
 .heading-h4 { 
   margin-block-end: 10px;
-  font-size: var(--size-text);
+  font-size: var(--size-text, 18px);
 }
 
 .description-paragraph { 
-  font-family: var(--font-family);
-  font-weight: var(--font-regular);
-  font-size: var(--size-text);
+  font-family: var(--font-family, 'IBM Plex Mono', sans-serif);
+  font-weight: var(--font-regular, 400);
+  font-size: var(--size-text, 18px);
   line-height: 130%;
-  color: var(--color-text);
+  color: var(--color-text, #f1b2ce, #353430);
   margin-block-end: 20px;
 }
 
 .title--dark { 
-  background-color: var(--color-bg-title);
-    color: var(--color-title);
+  background-color: var(--color-bg-title, #FF0070, #ff8dcb);
+    color: var(--color-title, #353430, #000028);
 }
 
 .heading-h3--margin-block-end-x2 { 
@@ -57,7 +59,7 @@ a {
 }
 
 .link--accent { 
-  text-shadow: 2px 2px 1px var(--color-link-accent);
+  text-shadow: 2px 2px 1px var(--color-link-accent, #353430, #ff0070);
 }
 
 .link--accent:focus { 
@@ -65,7 +67,7 @@ a {
 }
 
 .link--accent:focus-visible { 
-  outline: 1px  var(--color-focus) solid;
+  outline: 1px  var(--color-focus, #353430, #f1b2ce) solid;
 }
 
 .link--accent:hover { 
