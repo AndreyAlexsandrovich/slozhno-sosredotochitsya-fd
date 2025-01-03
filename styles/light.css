@@ -3,18 +3,43 @@
   --color-description: #353430;
   --color--description-accent: #FF8DCB;
   --color-pink-transparency: rgb(255, 0, 112, 0.4);
-  --color-heading-h1: #FFC2E6;
-  --color-title: #353430;
-  --color-bg-title:  #ff8dcb;
-  --color-text: #353430;
-  --color-hover: #353430;
-  --color-outline-hover: #353430;
-  --color-bg-theme:  #fff1f7;
-  --color-link-accent: #353430;
-  --color-focus:  #353430;
-  --background: url(../images/cover-image-light.png);
+  --color-heading-title: #FFC2E6;
+  --color-title: #353430; 
+  --color-title-card: #353430; 
+  --color-bg-title: #ff8dcb; 
+  --color-text: #353430; 
+  --color-hover: #353430; 
+  --color-outline-hover: #353430; 
+  --color-bg-theme: #fff1f7; 
+  --color-link-accent: #353430; 
+  --color-focus: #353430; 
+  --background: url(../images/cover-image-light.png); 
 }
 
 .page.theme_light .decorative-rec { 
-  opacity: 0;
+  opacity: 0; 
+ }
+
+@media (prefers-color-scheme: light) { 
+  
+  :root {
+    --color: #353430;
+    --color-description: #353430;
+    --color--description-accent: #FF8DCB;
+    --color-pink-transparency: rgb(255, 0, 112, 0.4);
+    --color-heading-title: #FFC2E6;
+    --color-title: #353430; 
+    --color-bg-title: #ff8dcb;
+    --color-text: #353430; 
+    --color-hover: #353430; 
+    --color-outline-hover: #353430; 
+    --color-bg-theme: #fff1f7; 
+    --color-link-accent: #353430; 
+    --color-focus: #353430; 
+    --background: url(../images/cover-image-light.png); 
+  }
+
+  .decorative-rec { 
+    opacity: 0; 
+   }
 }

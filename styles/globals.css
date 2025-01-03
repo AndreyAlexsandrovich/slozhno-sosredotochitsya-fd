@@ -10,8 +10,6 @@ html {
   box-sizing: inherit;
 }
 
-
-
 body {
   min-inline-size: 375px;
   max-inline-size: 1440px;
@@ -27,7 +25,7 @@ h5,
 h6,
 p {
   margin: 0;
-  font-family: var(--font-family, 'IBM Plex Mono', sans-serif);
+  font-family: var(--font-family, 'IBM Plex Mono', monospace, sans-serif);
 }
 
 ul {

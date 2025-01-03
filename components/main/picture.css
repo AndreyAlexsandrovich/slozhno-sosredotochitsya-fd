@@ -2,10 +2,15 @@
     margin-block-start: 50px;
 }
 
+.picture .picture__heading { 
+    margin-block-end: 10px;
+}
+
 .picture__image { 
-    max-width: 100%;
+   max-inline-size: 100%;
     background-position: center center;
-    background-size: contain;
+    background-size: cover;
+    display: block;
 }
 
 .picture__list {
