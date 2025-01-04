@@ -1,22 +1,3 @@
-.why {
-    padding-block-start: 40px;
-    display: grid;
-    align-items: start;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    
-}
-
 .why__list {
    min-inline-size: 100%;
-}
-
-.why__title {
-    font-family: var(--font-family, 'IBM Plex Mono', sans-serif);
-    font-weight: var(--font-bold, 700);
-    font-size: var(--size-text, 18px);
-    text-transform: var(--text-capitalize, capitalize);
-    margin-block-end: 15px;
-    line-height: 130%;
-    inline-size: 100%;
 }

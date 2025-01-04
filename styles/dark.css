@@ -2,9 +2,8 @@
   --color: #FF0070;
   --color-description: #000028;
   --color--description-accent: #FF0070;
-  --color-pink-transparency: rgb(255, 0, 112, 0.4);
   --color-heading-title: #DB00FF;
-  --color-hover: #FF0070;
+  --color-hover: rgb(255, 0, 112, 0.4);
   --color-outline-hover: rgb(53, 52, 48, 0.4);
   --color-title: #FF0070;
   --color-title-card: #000028; 
@@ -21,9 +20,8 @@
     --color: #FF0070;
     --color-description: #000028;
     --color--description-accent: #FF0070;
-    --color-pink-transparency: rgb(255, 0, 112, 0.4);
     --color-heading-title: #DB00FF;
-    --color-hover: #FF0070;
+    --color-hover: rgb(255, 0, 112, 0.4);
     --color-outline-hover: rgb(53, 52, 48, 0.4);
     --color-title: #FF0070;
     --color-title-card: #000028; 
@@ -34,4 +32,8 @@
     --color-bg-theme: #000028;
     --background: url(../images/cover-image-dark.png);
   }
+
+  .page.theme_auto .decorative-rec { 
+    opacity: 1;
+   }
 }

@@ -1,11 +1,12 @@
 .header {
     min-height: 668px;
-    margin: 10px;
+    margin-inline: 10px;
+    margin-block-start: 10px;
 }
 
 .decorated-zone {
     position: relative;
-    min-block-size: 97vh;
+    min-block-size: 100vh;
 }
 
 .decorative-rec {
@@ -86,7 +87,7 @@
 }
 
 .header__theme-menu-button:hover {
-    outline: 1px var(--color-pink-transparency, rgb(255, 0, 112, 0.4)) solid;
+    outline: 1px var(--color-hover, rgba(50, 49, 45, 0.4)) solid;
     cursor: pointer;
 }
 

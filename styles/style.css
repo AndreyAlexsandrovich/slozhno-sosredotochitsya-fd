@@ -1,9 +1,9 @@
-main { 
+main {
   padding-inline-start: clamp(0.625rem, 0.0589rem + 2.4814vw, 1.25rem);
   padding-inline-end: clamp(0.625rem, 0.0589rem + 2.4814vw, 1.25rem);
 }
 
-a { 
+a {
   text-decoration: none;
 }
 
@@ -20,7 +20,11 @@ a {
   background-attachment: fixed;
 }
 
-.heading-headline { 
+.section {
+  margin-block-start: 50px;
+}
+
+.heading-headline {
   font-weight: var(--font-bold, 700);
   font-size: var(--size-text, 18px);
   color: var(--color-title, #353430);
@@ -28,12 +32,17 @@ a {
   margin-block-end: 20px;
 }
 
-.heading__subtitle { 
+.heading__subtitle {
   margin-block-end: 10px;
   font-size: var(--size-text, 18px);
+  background-color: var(--color-bg-title, #ff8dcb);
+  color: var(--color-title-card, #353430);
+  font-family: var(--font-family, 'IBM Plex Mono', sans-serif);
+  line-height: 130%;
+  inline-size: 100%;
 }
 
-.description-paragraph { 
+.description-paragraph {
   font-family: var(--font-family, 'IBM Plex Mono', monospace, sans-serif);
   font-weight: var(--font-regular, 400);
   font-size: var(--size-text, 18px);
@@ -42,28 +51,23 @@ a {
   margin-block-end: 20px;
 }
 
-.title--dark { 
-  background-color: var(--color-bg-title, #ff8dcb);
-    color: var(--color-title-card, #353430);
-}
-
-.heading__subtitle--margin-block-end-x2 { 
+.heading__subtitle--large-margin {
   margin-block-end: 20px;
 }
 
-.link--accent { 
+.link--accent {
   text-shadow: 2px 2px 1px var(--color-link-accent, #353430);
 }
 
-.link--accent:focus { 
+.link--accent:focus {
   outline: none;
 }
 
-.link--accent:focus-visible { 
-  outline: 1px  var(--color-focus, #353430) solid;
+.link--accent:focus-visible {
+  outline: 1px var(--color-focus, #353430) solid;
 }
 
-.link--accent:hover { 
+.link--accent:hover {
   text-decoration-skip-ink: none;
   text-decoration: underline;
 }

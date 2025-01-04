@@ -5,6 +5,8 @@
     padding: 0;
     margin-block-start: 50px;
     margin-block-end: 10px;
+    min-height: 668px;
+    min-block-size: 100vh;
 }
 
 .footer__title {

@@ -20,10 +20,10 @@
     <link rel="stylesheet" href="components/main/how.css">
     <link rel="stylesheet" href="components/main/picture.css">
     <link rel="stylesheet" href="components/footer/footer.css">
-    <!-- resposive -->
-    <link rel="stylesheet" href="./styles/resposive.css">
     <!-- main style -->
     <link rel="stylesheet" href="./styles/style.css">
+    <!-- resposive -->
+    <link rel="stylesheet" href="./styles/resposive.css">
     <!-- icon -->
     <link rel="icon" href="images/favicon.ico" type="images/x-icon">
     <title>Сложно сосредоточиться</title>
@@ -55,7 +55,7 @@
             </button>
           </li>
         </ul>
-        <div class="decorative-rec" aria-label="true">rec</div>
+        <div class="decorative-rec" aria-hidden="true">rec</div>
       </nav>
       <div class="header__heading heading">
         <h1 class="heading__title heading__title--accent">no focus</h1>
@@ -68,15 +68,15 @@
       </div>
     </header>
     <main class="main">
-      <section class="why">
-        <h2 class="why__heading heading-headline">
+      <section class="section">
+        <h2 class="heading-headline">
           Почему сосредоточиться так сложно
         </h2>
-        <article>
-          <ul class="why__list">
+      <div>
+          <ul  class="why__list">
             <li class="why__container-multitasking">
-              <h3 class="why__title title--dark heading__subtitle">Многозадачность</h3>
-              <p class="why__description description-paragraph">
+              <h3 class="heading__subtitle">Многозадачность</h3>
+              <p class="description-paragraph">
                 Особенно сложно сосредоточиться, когда задач много и все они —
                 важные. Где же легендарная многозадачность, когда она так нужна
                 вам (и всем нанимающим менеджерам этого мира)? А дело в том, что
@@ -89,8 +89,8 @@
               </p>
             </li>
             <li class="why__container-dopamine">
-              <h3 class="why__title title--dark heading__subtitle">дофамин</h3>
-              <p class="why__description description-paragraph">
+              <h3 class="heading__subtitle">дофамин</h3>
+              <p class="description-paragraph">
                 С гормонами стресса всё понятно, но дальше — ещё интереснее. В
                 нашей невозможности сосредоточиться замешана и полная
                 противоположность стрессу — дофамин. Это вещество участвует в
@@ -102,18 +102,18 @@
               </p>
             </li>
           </ul>
-        </article>
+        </div>
       </section>
-      <section class="what">
-        <h2 class="what__heading heading-headline">
+      <section class="section">
+        <h2 class="heading-headline max-inline-size">
           Что снижает концентрацию <br>
           внимания?
         </h2>
-        <article>
+        <div>
           <ul class="what__list">
             <li class="what__container-multitasking">
-              <h3 class="what__title title--dark heading__subtitle">Многозадачность</h3>
-              <p class="what__description description-paragraph">
+              <h3 class="heading__subtitle">Многозадачность</h3>
+              <p class="description-paragraph">
                 Как концентрация может снижаться из-за… концентрации? Любая
                 стрессовая ситуация (и резко меняющийся мир в целом) заставляет
                 наш мозг постоянно «сканировать» окружающую среду на предмет
@@ -123,7 +123,7 @@
               </p>
             </li>
             <li class="what__container-food">
-              <h3 class="what__title title--dark heading__subtitle">Еда</h3>
+              <h3 class="heading__subtitle">Еда</h3>
               <p class="what__description description-paragraph">
                 «Быстрые углеводы» — сахар, белый хлеб, сладости — молниеносно
                 доставляют в мозг энергию и помогают ему лучше работать. Но уходит
@@ -134,7 +134,7 @@
               </p>
             </li>
             <li class="what__container-gadgets">
-              <h3 class="what__title title--dark heading__subtitle">Гаджеты</h3>
+              <h3 class="heading__subtitle">Гаджеты</h3>
               <p class="what__description description-paragraph">
                 Да-да, это та самая ситуация, когда на экране ноутбука — код, в
                 наушниках — подкаст, а на компьютере фоном — ещё и видео с
@@ -146,26 +146,26 @@
               </p>
             </li>
           </ul>
-        </article>
+        </div>
       </section>
-      <section class="how">
-        <h2 class="how__heading heading-headline">
+      <section class="section">
+        <h2 class="heading-headline">
           Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх
           секунд)
         </h2>
-        <article>
-
+      
+        <div>
           <h3
-            class="how__heading-rules title--dark heading__subtitle heading__subtitle--margin-block-end-x2"
+            class="how__heading-rules  heading__subtitle heading__subtitle--large-margin"
           >
             5 простых (на самом деле не очень) советов
-        </h3>
-          <ul class="how__container-rules">
+      </h3>
+          <ul  class="how__container-rules">
             <li class="how__container-sky">
-              <h4 class="how__title title--dark heading__subtitle how__title--font-regular">
+              <h4 class="heading__subtitle how__title--font-regular">
                 Представьте небо и облака
               </h4>
-              <p class="how__description description-paragraph">
+              <p class="description-paragraph">
                 Или листья в ручье. Тут дело в лёгкой медитации, которая помогает
                 успокоиться. Ведь часто именно тревожные мысли о сложных задачах
                 как раз и мешают эти сложные задачи делать. В такие моменты можно
@@ -177,8 +177,8 @@
               </p>
             </li>
             <li class="how__container-music">
-              <h4 class="how__title title--dark heading__subtitle how__title--font-regular">Включите музыку</h4>
-              <p class="how__description description-paragraph">
+              <h4 class="heading__subtitle how__title--font-regular">Включите музыку</h4>
+              <p class="description-paragraph">
                 Но не любую, и не любимую. Любимая может быть связана с сильными
                 положительными эмоциями, которые тоже очень сильно отвлекают.
                 Подойдёт тихая, спокойная, умеренно-ритмичная. Можно вообще
@@ -186,8 +186,8 @@
               </p>
             </li>
             <li class="how__container-walk">
-              <h4 class="how__title title--dark heading__subtitle how__title--font-regular">Прогуляйтесь</h4>
-              <p class="how__description description-paragraph">
+              <h4 class="heading__subtitle how__title--font-regular">Прогуляйтесь</h4>
+              <p class="description-paragraph">
                 Или даже пробегитесь. Лучше найти парк или лес: один эксперимент
                 <a class="link--accent" target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S0272494415000328">показал</a>, что созерцание природы повышает концентрацию, в то время
                 как после просмотра городских пейзажей она наоборот понижается.
@@ -198,8 +198,8 @@
               </p>
             </li>
             <li class="how__container-good-food">
-              <h4 class="how__title title--dark heading__subtitle how__title--font-regular">Хорошо ешьте</h4>
-              <p class="how__description description-paragraph">
+              <h4 class="heading__subtitle how__title--font-regular">Хорошо ешьте</h4>
+              <p class="description-paragraph">
                 Мы — не ваша бабушка, но это правда важно. Выбирайте продукты,
                 которые препятствуют резким скачкам сахара в крови. Например, с
                 высоким содержанием клетчатки: овощи, ягоды, бобовые (нут,
@@ -207,8 +207,8 @@
               </p>
             </li>
             <li class="how__container-read">
-              <h4 class="how__title title--dark heading__subtitle how__title--font-regular">Читайте</h4>
-              <p class="how__description description-paragraph">
+              <h4 class="heading__subtitle how__title--font-regular">Читайте</h4>
+              <p class="description-paragraph">
                 Настоящие бумажные книги. Это правда помогает с концентрацией:
                 чтобы прочитать пост в соцсети, достаточно нескольких минут или
                 даже секунд. А вот интересная книга способна затянуть и на
@@ -216,13 +216,12 @@
               </p>
             </li>
           </ul>
-        </article>
+        </div>
       </section>
-      <section class="picture">
-        <h2 class="picture__heading heading-headline title--dark">А можно в картинках?</h2>
-        <article class="picture__card">
-
-          <ul class="picture__list">
+      <section class="section">
+        <h2 class="picture__heading heading__subtitle">А можно в картинках?</h2>
+        <div>
+          <ul   class="picture__list">
             <li class="picture__list-item">
               <picture>
                 <source srcset="./images/formats/sunset.webp" type="image/webp">
@@ -237,7 +236,7 @@
                   "
                   alt="Восходящее солнце и летящие птицы"
                   class="picture__image image-sunset"
-                />
+                >
               </picture>
             </li>
             <li class="picture__list-item">
@@ -254,7 +253,7 @@
                   "
                   alt="Мороженное в тарелке с улыбающим лицом"
                   class="picture__image image-ice-cream"
-                />
+                >
               </picture>
             </li>
             <li class="picture__list-item">
@@ -271,7 +270,7 @@
                   "
                   alt="Касета"
                   class="picture__image image-tape"
-                />
+                >
               </picture>
             </li>
             <li class="picture__list-item">
@@ -288,7 +287,7 @@
                   "
                   alt="Стопка книг на столе"
                   class="picture__image image-books"
-                />
+                >
               </picture>
             </li>
             <li class="picture__list-item">
@@ -305,11 +304,11 @@
                   "
                   alt="Улица"
                   class="picture__image image-street"
-                />
+                >
               </picture>
-            </li
+            </li>
           </ul>
-        </article>
+        </div>
       </section>
     </main>
     <footer class="footer decorated-zone">
