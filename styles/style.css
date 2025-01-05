@@ -1,6 +1,8 @@
 main {
   padding-inline-start: clamp(0.625rem, 0.0589rem + 2.4814vw, 1.25rem);
   padding-inline-end: clamp(0.625rem, 0.0589rem + 2.4814vw, 1.25rem);
+  padding-block-start: 40px;
+  
 }
 
 a {
@@ -20,9 +22,7 @@ a {
   background-attachment: fixed;
 }
 
-.section {
-  margin-block-start: 50px;
-}
+
 
 .heading-headline {
   font-weight: var(--font-bold, 700);
@@ -30,6 +30,7 @@ a {
   color: var(--color-title, #353430);
   line-height: 130%;
   margin-block-end: 20px;
+  
 }
 
 .heading__subtitle {
@@ -40,6 +41,7 @@ a {
   font-family: var(--font-family, 'IBM Plex Mono', sans-serif);
   line-height: 130%;
   inline-size: 100%;
+  
 }
 
 .description-paragraph {
@@ -49,10 +51,12 @@ a {
   line-height: 130%;
   color: var(--color-text, #353430);
   margin-block-end: 20px;
+  
 }
 
 .heading__subtitle--large-margin {
   margin-block-end: 20px;
+  
 }
 
 .link--accent {

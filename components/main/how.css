@@ -1,3 +1,7 @@
+.how { 
+    margin-block-start: 50px;
+}
+
 .how__title--font-regular { 
     font-weight: 400;
 }
