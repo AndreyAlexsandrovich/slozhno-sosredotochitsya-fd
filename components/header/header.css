@@ -1,8 +1,8 @@
 .header {
-    min-height: 668px;
     padding-inline: 10px;
     padding-block-start: 10px;
-    block-size: 100vh;
+    height: 100vh;
+    min-height: 668px;
 }
 
 .decorated-zone {
@@ -110,7 +110,7 @@
     text-transform: var(--text-lowercase, lowercase);
     font-family: var(--font-family,  'IBM Plex Mono', monospace, sans-serif);
     font-weight: var(--font-bold, 700);
-    line-height: 82.5%;
+    line-height: 83%;
     margin-top: 65px;
 }
 

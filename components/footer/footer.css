@@ -3,7 +3,8 @@
     grid-template-columns: 1fr;
     padding: 0;
     margin-block-start: 40px;
-    block-size: 100vh;
+   height: 100vh;
+   min-height: 668px;
 }
 
 .footer__title {

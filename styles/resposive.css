@@ -15,13 +15,9 @@
         margin-inline-start: auto;
     }
 
-    .decorated-zone {
-        min-height: 1024px;
-    }
-
     .heading__title {
         margin-top: clamp(11.25rem, 0.5625rem + 22.2656vw, 14.8125rem);
-        margin-left: -3%;
+        margin-left: -2%;
     }
 
     .heading__description {
@@ -111,10 +107,6 @@
         justify-items: center;
         align-items: center;
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    }
-
-    .decorated-zone {
-        min-height: 768px;
     }
 
     .decorative-rec {
